@@ -8,6 +8,7 @@ def launch_driver():
     driver.get('https://www.oyorooms.com/')
     sleep(5)
     print("Driver Launched")
+    print("Scraper Branch")
     driver.close()
 
 
