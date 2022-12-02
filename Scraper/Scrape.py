@@ -7,7 +7,8 @@ def launch_driver():
     driver = webdriver.Chrome(driver_path)
     driver.get('https://www.oyorooms.com/')
     sleep(5)
+    print("Driver Launched")
     driver.close()
-    
+
 
 launch_driver()
